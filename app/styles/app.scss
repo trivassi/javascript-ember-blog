@@ -11,9 +11,17 @@ body{
   }
 }
 
+.container{
+  padding-bottom: 80px;
+  position:relative;
+}
+
+hr{
+  border-color: black;
+}
+
 #footer-holder{
-  display:block;
-  position: fixed;
+  position: absolute;
   bottom: 30px;
   width: 100%;
 }

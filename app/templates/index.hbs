@@ -2,7 +2,9 @@
 
 <h2>Posts</h2>
 <ul>
-
+  {{#each model as |post|}}
+    {{post-tile post=post}}
+  {{/each}}
 </ul>
 
 {{post-new savePost2="savePost3"}}
