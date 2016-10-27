@@ -13,12 +13,12 @@ module.exports = function(environment) {
       }
     },
 
-    // firebase: {
-    //   apiKey: "AIzaSyAtd237XDzdBsv5I-6hdyLT1Ru4zLqQJwg",
-    //   authDomain: "blog-1ab07.firebaseapp.com",
-    //   databaseURL: "https://blog-1ab07.firebaseio.com",
-    //   storageBucket: "blog-1ab07.appspot.com"
-    // },
+    firebase: {
+      apiKey: "AIzaSyAtd237XDzdBsv5I-6hdyLT1Ru4zLqQJwg",
+      authDomain: "blog-1ab07.firebaseapp.com",
+      databaseURL: "https://blog-1ab07.firebaseio.com",
+      storageBucket: "blog-1ab07.appspot.com"
+    },
 
 
     APP: {
