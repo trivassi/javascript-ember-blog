@@ -1,5 +1,5 @@
 {{#if updatePostForm}}
-  <h4>Update {{model.author}}'s post</h4>
+  <h4>Update {{post.author}}'s post</h4>
   <div>
     <form>
       <div class="form-group">
@@ -23,7 +23,7 @@
         <label for="image">Image</label>
         {{input value=image id="image"}}
       </div>
-      <button {{action 'update' model}}>Save</button>
+      <button {{action 'update' post}}>Save</button>
     </form>
   </div>
 {{else}}
