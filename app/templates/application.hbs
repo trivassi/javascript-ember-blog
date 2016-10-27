@@ -1,5 +1,16 @@
 <h2 id="title">Welcome to the latin america blog</h2>
+<div class="jumbotron" id="welcome-jumbotron">
+  <img src="http://previews.123rf.com/images/balabolka/balabolka1511/balabolka151100128/48231353-Sketchy-vector-hand-drawn-Doodle-cartoon-set-of-objects-and-symbols-on-the-Latin-America-theme-Stock-Vector.jpg" id="welcome-picture">
+</div>
 
-<footer>
-  {{#link-to 'index'}}Home{{/link-to}}
-</footer>
+<div class="container">
+  {{outlet}}
+</div>
+
+<div id="footer-holder">
+  <footer>
+    {{#link-to 'index'}}Home{{/link-to}}
+    {{#link-to 'about'}}About{{/link-to}}
+    {{#link-to 'contact'}}Contact{{/link-to}}
+  </footer>
+</div>

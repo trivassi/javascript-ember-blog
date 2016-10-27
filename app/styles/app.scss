@@ -10,3 +10,19 @@ body{
     text-decoration: underline;
   }
 }
+
+#footer-holder{
+  display:block;
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+}
+
+#welcome-picture{
+  height: 20em;
+  width: auto;
+}
+
+#welcome-jumbotron{
+  padding: 3em;
+}
